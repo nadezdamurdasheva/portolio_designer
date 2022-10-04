@@ -1,0 +1,23 @@
+.portfolio {
+    background-color: #F6F6F6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.portfolio__all {
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+}
+.portfolio__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.portfolio__img {
+    width: 100%;
+}
+.portfolio__link {
+    color: #070707;
+    font-weight: 500;
+}

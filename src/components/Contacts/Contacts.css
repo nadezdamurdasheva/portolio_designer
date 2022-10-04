@@ -1,0 +1,28 @@
+.contacts {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.contacts__container {
+    align-items: center;
+}
+.contacts__btn {
+    padding: 8px 20px;
+    width: fit-content;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+.contacts__btn:focus, .contacts__btn:hover {
+    cursor: pointer;
+}
+.contacts__links {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+.contacts__text {
+    color: #828282;
+    font-size: 14px;
+}

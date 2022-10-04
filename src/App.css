@@ -1,4 +1,21 @@
-.App {
+.container {
+  padding: 0 calc(50vw - 590px);
+}
+.aboutMe__container {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.text {
+  text-align: center;
+  font-weight: 500;
+}
+.header {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

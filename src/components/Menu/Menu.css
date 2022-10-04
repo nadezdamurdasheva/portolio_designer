@@ -1,0 +1,20 @@
+.links_container {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.links_container::after{
+    display: block;
+    background-color: #828282;
+    height: 1px;
+    content: "";
+    margin-top: 33px;
+}
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    text-decoration: none;
+    color: #828282;
+}

@@ -1,0 +1,54 @@
+.container_avatar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+}
+.fio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.name {
+    font-size: 47px;
+}
+.surname {
+    font-size: 47px;
+}
+.info {
+    margin-left: -125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.info__elem {
+    font-weight: 500;
+}
+.languages {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    margin-right: 3px;
+}
+.language {
+}
+.language_ru::after {
+    content: "";
+    display: inline-block;
+    background-color: #000000;
+    height: 2px;
+    width: 18px;
+    margin-left: -5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.languages__link {
+    text-decoration: none;
+    color: #828282;
+    text-transform: uppercase;
+}
+.avatar {
+    width: 100%;
+    margin-bottom: 90px;
+}
