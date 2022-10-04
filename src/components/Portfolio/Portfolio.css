@@ -20,4 +20,18 @@
 .portfolio__link {
     color: #070707;
     font-weight: 500;
+    transition: all .3s ease-out;
+}
+.portfolio__link:focus {
+    text-decoration: none;
+    transition: none;
+}
+.portfolio__link:hover {
+    text-decoration: none;
+    transition: none;
+}
+.portfolio__link:active {
+    text-decoration: underline;
+    color: #828282;
+    transition: none;
 }

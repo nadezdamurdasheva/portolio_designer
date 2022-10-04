@@ -14,12 +14,12 @@ export const Contacts = () => {
         <p className="text">
         Want to know more or just chat?<br/>You are welcome!
         </p>
-        <button className="contacts__btn">Send message</button>
+        <button type="button" className="contacts__btn">Send message</button>
         <div className="contacts__links">
-            <a href="#"><img alt="" src={linkedin}/></a>
-            <a href="#"><img alt="" src={instagram}/></a>
-            <a href="#"><img alt="" src={behance}/></a>
-            <a href="#"><img alt="" src={dribble}/></a>
+            <a className="contacts__link" href="#"><img className="contacts__img" alt="" src={linkedin}/></a>
+            <a className="contacts__link" href="#"><img className="contacts__img" alt="" src={instagram}/></a>
+            <a className="contacts__link" href="#"><img className="contacts__img" alt="" src={behance}/></a>
+            <a className="contacts__link" href="#"><img className="contacts__img" alt="" src={dribble}/></a>
         </div>
         <p className="text contacts__text">
         Like me on<br/>LinkedIn, Instagram, Behance, Dribble

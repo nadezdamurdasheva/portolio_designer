@@ -10,12 +10,27 @@
     width: fit-content;
     border-radius: 25px;
     outline: none;
-    border: none;
+    border: 1px solid #000;
     background-color: #000;
     color: #fff;
+    transition: all .3s ease-out;
 }
-.contacts__btn:focus, .contacts__btn:hover {
+.contacts__btn:focus {
     cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: none;
+}
+.contacts__btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: none;
+}
+.contacts__btn:active {
+    background-color: #000;
+    color: #fff;
+    transition: none;
 }
 .contacts__links {
     display: flex;
