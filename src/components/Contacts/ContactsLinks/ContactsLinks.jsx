@@ -12,7 +12,7 @@ export const ContactsLinks = () => {
   return (
     <ul className="contacts__links">
       {contactsArray.map(el => {
-        return (<ContactsLink imgName={el}/>)
+        return (<ContactsLink key={el} imgName={el}/>)
       })}
     </ul>
   );

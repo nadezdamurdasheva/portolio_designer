@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./Program.css";
 import starBlackImg from "../../../../images/star_black.svg";
 import starGrayImg from "../../../../images/star_gray.svg";
@@ -7,13 +7,12 @@ export const Program = ({ nameImg, text, stars }) => {
     
 const getStars = (stars) => {
     let starsArray = [];
-    const starsGray = 5 - stars;
-    for(let i = 1; i <= stars; i++) {
-        starsArray.push(<img alt="" src={starBlackImg}/>)
+    for(let i = 0; i <= stars - 1; i++) {
+        starsArray.push(<img key={i} alt="" src={starBlackImg}/>);
     }
-    for(let i = 1; i <= starsGray; i++) {
-        starsArray.push(<img alt="" src={starGrayImg}/>)
-    }
+    for(let i = stars; i <= 4; i++) {
+        starsArray.push(<img key={i} alt="" src={starGrayImg}/>);
+    } 
     return starsArray;
 }
 
@@ -23,10 +22,10 @@ const getStars = (stars) => {
       <p className="program__name">
         {text.split("\n").map((el) => {
           return (
-            <>
+            <Fragment key={el}>
               {el}
               <br />
-            </>
+            </Fragment>
           );
         })}
       </p>

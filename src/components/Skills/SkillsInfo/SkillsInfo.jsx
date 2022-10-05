@@ -8,17 +8,17 @@ import figma from "../../../images/figma.svg";
 import { Program } from "./Program/Program";
 
 const skillsArray = [
-  { img: photoshop, text: "Adobe\nPhotoshop", stars: 5 },
-  { img: illustrator, text: "Adobe\nIllustrator", stars: 5 },
-  { img: after_effects, text: "After\nEffects", stars: 3 },
-  { img: figma, text: "Figma", stars: 3 },
+  { id: 1, img: photoshop, text: "Adobe\nPhotoshop", stars: 5 },
+  { id: 2, img: illustrator, text: "Adobe\nIllustrator", stars: 5 },
+  { id: 3, img: after_effects, text: "After\nEffects", stars: 3 },
+  { id: 4, img: figma, text: "Figma", stars: 3 },
 ];
 
 export const SkillsInfo = () => {
   return (
     <ul className="skills__info">
         {skillsArray.map(el => {
-            return (<Program nameImg={el.img} text={el.text} stars={el.stars}/>)
+            return (<Program key={el.id} nameImg={el.img} text={el.text} stars={el.stars}/>)
         })}
     </ul>
   );

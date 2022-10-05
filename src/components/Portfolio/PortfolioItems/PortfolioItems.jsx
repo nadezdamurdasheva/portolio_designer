@@ -6,16 +6,16 @@ import portfolio_3 from "../../../images/portfolio_3.png";
 import { PortfolioItem } from "./PortfolioItem/PortfolioItem";
 
 const portfolioArray = [
-  { text: "Online fashion store - Homepage", img: portfolio_1 },
-  { text: "Reebok Store - Concept", img: portfolio_2 },
-  { text: "Braun Landing Page - Concept", img: portfolio_3 },
+  { id: 1,text: "Online fashion store - Homepage", img: portfolio_1 },
+  { id: 2,text: "Reebok Store - Concept", img: portfolio_2 },
+  { id: 3,text: "Braun Landing Page - Concept", img: portfolio_3 },
 ];
 
 export const PortfolioItems = () => {
   return (
     <ul className="portfolio_items">
         {portfolioArray.map(el => {
-            return (<PortfolioItem text={el.text} img={el.img}/>)
+            return (<PortfolioItem key={el.id} text={el.text} img={el.img}/>)
         })}
     </ul>
   );

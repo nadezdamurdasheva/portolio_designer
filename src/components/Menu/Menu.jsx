@@ -9,7 +9,7 @@ export const Menu = () => {
   <nav className="links_container container">
     <ul className="links">
       {menuArray.map(el => {
-        return (<MenuItem nameLink={el}/>)
+        return (<MenuItem key={el} nameLink={el}/>)
       })}
     </ul>
   </nav>
