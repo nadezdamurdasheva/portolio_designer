@@ -16,10 +16,10 @@ const skillsArray = [
 
 export const SkillsInfo = () => {
   return (
-    <div className="skills__info">
+    <ul className="skills__info">
         {skillsArray.map(el => {
             return (<Program nameImg={el.img} text={el.text} stars={el.stars}/>)
         })}
-    </div>
+    </ul>
   );
 };

@@ -10,10 +10,10 @@ const contactsArray = [linkedin,instagram,behance,dribble];
 
 export const ContactsLinks = () => {
   return (
-    <div className="contacts__links">
+    <ul className="contacts__links">
       {contactsArray.map(el => {
         return (<ContactsLink imgName={el}/>)
       })}
-    </div>
+    </ul>
   );
 };

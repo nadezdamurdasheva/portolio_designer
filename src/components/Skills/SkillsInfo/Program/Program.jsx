@@ -18,7 +18,7 @@ const getStars = (stars) => {
 }
 
   return (
-    <div className="program">
+    <li className="program">
       <img className="program__img" alt="photoshop" src={nameImg} />
       <p className="program__name">
         {text.split("\n").map((el) => {
@@ -33,6 +33,6 @@ const getStars = (stars) => {
       <div className="stars">
         {getStars(stars)}
       </div>
-    </div>
+    </li>
   );
 };

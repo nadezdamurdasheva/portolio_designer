@@ -7,12 +7,12 @@ export const Avatar = () => {
     <div className="container">
       <div className="container_avatar">
         <div className="fio">
-          <div className="surname">Murdashev</div>
-          <div className="name">Ildar</div>
+          <p className="surname">Murdashev</p>
+          <p className="name">Ildar</p>
         </div>
         <div className="info">
-          <div className="info__elem">Designer</div>
-          <div className="info__elem">53 years old, Moscow</div>
+          <p className="info__elem">Designer</p>
+          <p className="info__elem">53 years old, Moscow</p>
         </div>
         <ul className="languages">
           <li className="language language_ru">

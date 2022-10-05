@@ -13,10 +13,10 @@ const portfolioArray = [
 
 export const PortfolioItems = () => {
   return (
-    <div className="portfolio_items">
+    <ul className="portfolio_items">
         {portfolioArray.map(el => {
             return (<PortfolioItem text={el.text} img={el.img}/>)
         })}
-    </div>
+    </ul>
   );
 };
