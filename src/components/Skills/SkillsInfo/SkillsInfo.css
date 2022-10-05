@@ -1,0 +1,5 @@
+.skills__info {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}

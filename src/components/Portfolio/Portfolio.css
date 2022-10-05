@@ -3,35 +3,3 @@
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.portfolio__all {
-    display: flex;
-    gap: 90px;
-    flex-direction: column;
-}
-.portfolio__info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 45px;
-}
-.portfolio__img {
-    width: 100%;
-}
-.portfolio__link {
-    color: #070707;
-    font-weight: 500;
-    transition: all .3s ease-out;
-}
-.portfolio__link:focus {
-    text-decoration: none;
-    transition: none;
-}
-.portfolio__link:hover {
-    text-decoration: none;
-    transition: none;
-}
-.portfolio__link:active {
-    text-decoration: underline;
-    color: #828282;
-    transition: none;
-}

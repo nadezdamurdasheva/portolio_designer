@@ -1,0 +1,19 @@
+.link {
+    text-decoration: none;
+    color: #828282;
+    transition: all .3s ease-out;
+}
+.link:focus {
+    color: #070707;
+    transition: none;
+}
+.link:hover {
+    color: #070707;
+    text-decoration: underline;
+    transition: none;
+}
+.link:active {
+    color: #828282;
+    text-decoration: none;
+    transition: none;
+}
