@@ -4,11 +4,9 @@ import { PortfolioItems } from "./PortfolioItems/PortfolioItems";
 
 export const Portfolio = () => {
   return (
-    <div className="portfolio">
-      <div className="aboutMe__container container">
+    <section className="portfolio aboutMe__container">
         <p className="header text">Portfolio</p>
         <PortfolioItems />
-      </div>
-    </div>
+    </section>
   );
 };

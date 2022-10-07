@@ -4,7 +4,7 @@ import avatar from "../../images/avatar.png";
 
 export const Avatar = () => {
   return (
-    <div className="container">
+    <header>
       <div className="container_avatar">
         <div className="fio">
           <p className="surname">Murdashev</p>
@@ -28,6 +28,6 @@ export const Avatar = () => {
         </ul>
       </div>
       <img className="avatar" alt="avatar" src={avatar} />
-    </div>
+    </header>
   );
 };

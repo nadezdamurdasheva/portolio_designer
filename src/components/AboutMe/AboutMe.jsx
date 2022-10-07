@@ -3,8 +3,7 @@ import "./AboutMe.css";
 
 export const AboutMe = () => {
   return (
-    <div className="aboutMe">
-      <div className="aboutMe__container container">
+    <section className="aboutMe aboutMe__container">
         <p className="header text">About me</p>
         <p className="text">
           Hello, I'm Ildar – designer from Moscow.<br/>
@@ -16,7 +15,6 @@ export const AboutMe = () => {
         <p className="text">
           Ready to implement excellent projects with wonderful people.
         </p>
-      </div>
-    </div>
+    </section>
   );
 };

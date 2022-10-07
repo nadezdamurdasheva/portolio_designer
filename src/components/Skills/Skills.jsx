@@ -4,12 +4,10 @@ import { SkillsInfo } from "./SkillsInfo/SkillsInfo";
 
 export const Skills = () => {
   return (
-    <div className="skills">
-      <div className="aboutMe__container container">
+    <section className="skills aboutMe__container">
         <p className="header text">Skills</p>
         <p className="text">I work in such programs as</p>
         <SkillsInfo />
-      </div>
-    </div>
+    </section>
   );
 };

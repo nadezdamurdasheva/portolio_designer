@@ -8,14 +8,14 @@ import { Skills } from './components/Skills/Skills';
 
 function App() {
   return (
-    <div>
+    <>
       <Menu />
       <Avatar />
       <AboutMe />
       <Skills />
       <Portfolio />
       <Contacts />
-    </div>
+    </>
   );
 }
 

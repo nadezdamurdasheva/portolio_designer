@@ -4,8 +4,7 @@ import { ContactsLinks } from "./ContactsLinks/ContactsLinks";
 
 export const Contacts = () => {
   return (
-    <footer className="contacts">
-      <div className="aboutMe__container contacts__container container">
+    <footer className="contacts aboutMe__container">
         <p className="header text">Contacts</p>
         <p className="text">
         Want to know more or just chat?<br/>You are welcome!
@@ -15,7 +14,6 @@ export const Contacts = () => {
         <p className="text contacts__text">
         Like me on<br/>LinkedIn, Instagram, Behance, Dribble
         </p>
-      </div>
     </footer>
   );
 };
