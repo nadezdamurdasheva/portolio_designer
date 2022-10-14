@@ -1,6 +1,4 @@
 .contacts {
-    padding-top: 90px;
-    padding-bottom: 90px;
     align-items: center;
 }
 .contacts__btn {
@@ -33,4 +31,9 @@
 .contacts__text {
     color: #828282;
     font-size: 14px;
+}
+@media (max-width: 495px) {
+    .contacts__text {
+        font-size: 12px;
+    }
 }

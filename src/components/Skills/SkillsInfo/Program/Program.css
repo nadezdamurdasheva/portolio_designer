@@ -18,3 +18,27 @@
     display: flex;
     gap: 9px;
 }
+@media (max-width: 991.98px) {
+    .program__img {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media (max-width: 767.98px) {
+    .program {
+        gap: 14px;
+    }
+    .program__img {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 495px) {
+    .program__name {
+        font-size: 12px;
+    }
+    .program__img {
+        width: 55px;
+        height: 55px;
+    }
+}

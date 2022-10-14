@@ -14,3 +14,26 @@
     display: flex;
     justify-content: space-between;
 }
+.burger {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+@media (max-width: 495px){
+    .links_container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .links_container::after{
+        margin-top: 15px;
+    }
+    .links {
+        display: none;
+    }
+    .burger {
+        display: inline-block;
+        align-self: flex-end;
+    }
+}

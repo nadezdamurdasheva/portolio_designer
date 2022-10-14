@@ -1,5 +1,16 @@
 .skills__info {
-    display: flex;
-    justify-content: center;
-    gap: 90px;
+    display: grid;
+    column-gap: 90px;
+    row-gap: 45px;
+    grid-template-columns: repeat(4,1fr);
 }
+@media (max-width: 991.98px) {
+    .skills__info {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 405px) {
+    .skills__info {
+        grid-template-columns: 1fr;
+    }
+} 

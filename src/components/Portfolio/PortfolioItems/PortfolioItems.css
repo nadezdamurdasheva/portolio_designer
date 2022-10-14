@@ -3,3 +3,8 @@
     gap: 90px;
     flex-direction: column;
 }
+@media (max-width: 767.98px) {
+    .portfolio_items {
+        gap: 60px;
+    }
+}

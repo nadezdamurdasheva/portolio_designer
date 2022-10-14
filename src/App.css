@@ -1,10 +1,15 @@
-nav, header, section, footer {
+/* nav, header, section, footer {
   padding: 0 calc(50vw - 590px);
+} */
+nav, header, section, footer {
+  padding: 0 15px;
 }
 .aboutMe__container {
   display: flex;
   flex-direction: column;
   gap: 45px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .text {
   text-align: center;
@@ -13,4 +18,45 @@ nav, header, section, footer {
 .header {
   font-size: 34px;
   font-weight: 700;
+}
+@media (min-width: 575.98px){
+  nav, header, section, footer {
+    padding: 0 calc(50vw - 270px);
+  }
+}
+
+@media (min-width: 767.98px){
+  nav, header, section, footer {
+    padding: 0 calc(50vw - 360px);
+  }
+}
+
+@media (min-width: 991.98px) {
+  nav, header, section, footer {
+    padding: 0 calc(50vw - 480px);
+  }
+}
+
+@media (min-width: 1199.98px){
+  nav, header, section, footer {
+    padding: 0 calc(50vw - 590px);
+  }
+}
+@media (max-width: 767.98px){
+  .header {
+    font-size: 25px;
+  }
+  .aboutMe__container {
+    gap: 28px;
+  }
+}
+@media (max-width: 495px) {
+  .aboutMe__container {
+      padding-top: 45px;
+      padding-bottom: 45px;
+      gap: 22px;
+  }
+  .header {
+    font-size: 20px;
+  }
 }
