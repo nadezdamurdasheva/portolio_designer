@@ -17,3 +17,8 @@
     text-decoration: none;
     transition: none;
 }
+@media (max-width: 495px){
+    .menu_item {
+        margin-bottom: 10px;
+    }
+}

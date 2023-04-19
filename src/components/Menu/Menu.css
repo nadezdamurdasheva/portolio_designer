@@ -23,17 +23,24 @@
     .links_container {
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .links_img_container {
         display: flex;
-        flex-direction: column;
+        justify-content: flex-end;
     }
     .links_container::after{
         margin-top: 15px;
     }
     .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; 
+        padding-right: 15px;
+    }
+    .links-hide {
         display: none;
     }
     .burger {
         display: inline-block;
-        align-self: flex-end;
     }
 }
