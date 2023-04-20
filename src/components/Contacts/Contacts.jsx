@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 export const Contacts = () => {
   const { t } = useTranslation();
   return (
-    <footer className="contacts aboutMe__container">
+    <footer className="contacts aboutMe__container" id="contacts">
         <p className="header text">{t('contacts')}</p>
         <p className="text">
         {t('want')}<br/> {t('welcome')}

@@ -8,15 +8,19 @@ import { useTranslation } from 'react-i18next';
 export const Menu = () => {
   const [menuActive,setMenuActive] = useState(false);
   const { t } = useTranslation();
-  const menuArray = [t('home_link'),t('about_me'),t('skills'),t('portfolio'),t('contacts')];
+  const menuArray = [
+    {id: 'home_link', text: t('home_link')},
+    {id: 'about_me', text: t('about_me')},
+    {id: 'skills', text: t('skills')},
+    {id: 'portfolio', text: t('portfolio')},
+    {id: 'contacts', text: t('contacts')}];
   
-
   return (
-  <nav className="links_container">
+  <nav className="links_container" id="home_link">
     <div className="links_img_container">
       <ul className={menuActive ? "links" : "links links-hide"}>
         {menuArray.map(el => {
-          return (<MenuItem key={el} nameLink={el}/>)
+          return (<MenuItem key={el.id} nameLink={el.text} id={el.id}/>)
         })}
       </ul>
       <img className="burger" alt="menu" src={burger} onClick={() => setMenuActive(!menuActive)}/>

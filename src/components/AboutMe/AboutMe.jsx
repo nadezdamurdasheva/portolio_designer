@@ -6,7 +6,7 @@ export const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="aboutMe aboutMe__container">
+    <section className="aboutMe aboutMe__container" id="about_me">
         <p className="header text">{t('about_me')}</p>
         <p className="text">
         {t('hello')}<br/>

@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 export const Portfolio = () => {
   const { t } = useTranslation();
   return (
-    <section className="portfolio aboutMe__container">
+    <section className="portfolio aboutMe__container" id="portfolio">
         <p className="header text">{t('portfolio')}</p>
         <PortfolioItems />
     </section>
