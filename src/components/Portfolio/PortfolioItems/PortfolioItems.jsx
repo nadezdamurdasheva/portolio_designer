@@ -4,14 +4,16 @@ import portfolio_1 from "../../../images/portfolio_1.png";
 import portfolio_2 from "../../../images/portfolio_2.png";
 import portfolio_3 from "../../../images/portfolio_3.png";
 import { PortfolioItem } from "./PortfolioItem/PortfolioItem";
+import { useTranslation } from 'react-i18next';
 
-const portfolioArray = [
-  { id: 1,text: "Online fashion store - Homepage", img: portfolio_1 },
-  { id: 2,text: "Reebok Store - Concept", img: portfolio_2 },
-  { id: 3,text: "Braun Landing Page - Concept", img: portfolio_3 },
-];
 
 export const PortfolioItems = () => {
+  const { t } = useTranslation();
+  const portfolioArray = [
+    { id: 1,text: t('online_fashion_store'), img: portfolio_1 },
+    { id: 2,text: t('reebok_store'), img: portfolio_2 },
+    { id: 3,text: t('braun_landing'), img: portfolio_3 },
+  ];
   return (
     <ul className="portfolio_items">
         {portfolioArray.map(el => {

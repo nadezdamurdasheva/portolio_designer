@@ -1,18 +1,20 @@
 import React from "react";
 import "./Contacts.css";
 import { ContactsLinks } from "./ContactsLinks/ContactsLinks";
+import { useTranslation } from 'react-i18next';
 
 export const Contacts = () => {
+  const { t } = useTranslation();
   return (
     <footer className="contacts aboutMe__container">
-        <p className="header text">Contacts</p>
+        <p className="header text">{t('contacts')}</p>
         <p className="text">
-        Want to know more or just chat?<br/>You are welcome!
+        {t('want')}<br/> {t('welcome')}
         </p>
-        <button type="button" className="contacts__btn">Send message</button>
+        <button type="button" className="contacts__btn">{t('send_message')}</button>
         <ContactsLinks />
         <p className="text contacts__text">
-        Like me on<br/>LinkedIn, Instagram, Behance, Dribble
+        {t('like_me_on')}<br/>LinkedIn, Instagram, Behance, Dribble
         </p>
     </footer>
   );
