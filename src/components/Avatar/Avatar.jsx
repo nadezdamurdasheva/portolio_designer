@@ -18,14 +18,14 @@ export const Avatar = () => {
         </div>
         <ul className="languages">
           <li className="language language_ru">
-            <a className="languages__link" href="#" onClick={() => i18n.changeLanguage('ru')}>
+            <button className="languages__btn" onClick={() => i18n.changeLanguage('ru')}>
               ru
-            </a>
+            </button>
           </li>
           <li className="language">
-            <a className="languages__link" href="#" onClick={() => i18n.changeLanguage('en')}>
+            <button className="languages__btn" onClick={() => i18n.changeLanguage('en')}>
               eng
-            </a>
+            </button>
           </li>
         </ul>
       </div>

@@ -28,10 +28,10 @@
     margin: 0;
     list-style-type: none;
     writing-mode: vertical-rl;
-    transform: scale(-1);
     margin-right: 3px;
 }
 .language {
+    display: flex;
 }
 .language_ru::after {
     content: "";
@@ -39,25 +39,30 @@
     background-color: #000000;
     height: 2px;
     width: 21px;
-    margin-left: -5px;
+    margin-right: 5px;
     margin-top: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
-.languages__link {
-    text-decoration: none;
+.languages__btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
     color: #828282;
     text-transform: uppercase;
     transition: all .3s ease-out;
+    transform: rotate(-90deg);
 }
-.languages__link:focus {
+.languages__btn:focus {
+    cursor: pointer;
     color: #000000;
     transition: none;
 }
-.languages__link:hover {
+.languages__btn:hover {
     color: #000000;
     transition: none;
+    cursor: pointer;
 }
-.languages__link:active {
+.languages__btn:active {
     color: #828282;
     transition: none;
 }
@@ -73,7 +78,7 @@
         font-size: 30px;
     }
     .language_ru::after {
-        width: 17px;
+        width: 16px;
     }
 }
 @media (max-width: 495px) {
@@ -87,7 +92,7 @@
         margin-left: -90px;
     }
     .language_ru::after {
-        width: 15px;
+        width: 12px;
     }
     .avatar {
         margin-bottom: 45px;
