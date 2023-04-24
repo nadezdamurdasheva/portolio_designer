@@ -16,15 +16,17 @@ export const Menu = () => {
     {id: 'contacts', text: t('contacts')}];
   
   return (
-  <nav className="links_container" id="home_link">
-    <div className="links_img_container">
-      <ul className={menuActive ? "links" : "links links-hide"}>
-        {menuArray.map(el => {
-          return (<MenuItem key={el.id} nameLink={el.text} id={el.id}/>)
-        })}
-      </ul>
-      <img className="burger" alt="menu" src={burger} onClick={() => setMenuActive(!menuActive)}/>
-    </div>
-  </nav>
+      <nav className="links_container">
+        <div className="links_img_container">
+          <ul className={menuActive ? "links" : "links links-hide"}>
+            {menuArray.map(el => {
+              return (<MenuItem key={el.id} nameLink={el.text} id={el.id}/>)
+            })}
+          </ul>
+          <img className="burger" alt="menu" src={burger} onClick={() => setMenuActive(!menuActive)}/>
+        </div>
+        
+      </nav>
+  
   );
 };

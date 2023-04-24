@@ -1,6 +1,6 @@
-/* nav, header, section, footer {
-  padding: 0 calc(50vw - 590px);
-} */
+* {
+  box-sizing: border-box;
+}
 nav, header, section, footer {
   padding: 0 15px;
 }

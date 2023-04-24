@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 export const Avatar = () => {
   const { t, i18n } = useTranslation();
   return (
-    <header>
+    <header id="home_link">
       <div className="container_avatar">
         <div className="fio">
           <p className="surname">{t('surname')}</p>

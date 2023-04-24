@@ -1,6 +1,11 @@
 .links_container {
     padding-top: 33px;
-    padding-bottom: 33px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 .links_container::after{
     display: block;
@@ -22,7 +27,7 @@
 @media (max-width: 495px){
     .links_container {
         padding-top: 20px;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
     }
     .links_img_container {
         display: flex;
