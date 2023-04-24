@@ -8,5 +8,5 @@ follow the link [https://nadezdamurdasheva.github.io/portolio_designer](https://
 
 ## Application features
 
--Adaptive design for mobile and desktop versions
--Internationalization (the ability to change the language of the site)
+- Adaptive design for mobile and desktop versions
+- Internationalization (the ability to change the language of the site)
