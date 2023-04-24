@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portolio_designer/static/css/main.798ca6fe.css",
+    "main.js": "/portolio_designer/static/js/main.44f725bf.js",
+    "static/js/787.b98b8a91.chunk.js": "/portolio_designer/static/js/787.b98b8a91.chunk.js",
+    "static/media/avatar.png": "/portolio_designer/static/media/avatar.f5c41a6e563a9e0cd8c7.png",
+    "static/media/portfolio_2.png": "/portolio_designer/static/media/portfolio_2.9001b0a4d4057d33baf0.png",
+    "static/media/linkedin.svg": "/portolio_designer/static/media/linkedin.d0f7b5f78050a5a2b2394c7dd83fe920.svg",
+    "static/media/portfolio_3.png": "/portolio_designer/static/media/portfolio_3.f4dd50605badd43c279f.png",
+    "static/media/portfolio_1.png": "/portolio_designer/static/media/portfolio_1.53c414ad73c7f196060b.png",
+    "static/media/Gilroy-Medium.woff": "/portolio_designer/static/media/Gilroy-Medium.60860927fde700fcf615.woff",
+    "static/media/Gilroy-Bold.woff": "/portolio_designer/static/media/Gilroy-Bold.ea8841489daadc20f562.woff",
+    "static/media/Gilroy-Medium.woff2": "/portolio_designer/static/media/Gilroy-Medium.36365313bbe5505fa391.woff2",
+    "static/media/Gilroy-Bold.woff2": "/portolio_designer/static/media/Gilroy-Bold.d4f56a7321568dc107b0.woff2",
+    "static/media/dribble.svg": "/portolio_designer/static/media/dribble.703a0ac6692fabbc6c6c0eb84657e374.svg",
+    "static/media/photoshop.svg": "/portolio_designer/static/media/photoshop.950b05d7bed27fe72715fe15b2c00e54.svg",
+    "static/media/after_effects.svg": "/portolio_designer/static/media/after_effects.abfb2542cd8f2a3a7189e3102c39eb62.svg",
+    "static/media/behance.svg": "/portolio_designer/static/media/behance.5005f7e9a5bf18e8fcade1686f9d1e8f.svg",
+    "static/media/illustrator.svg": "/portolio_designer/static/media/illustrator.301bb21eed478ea883dfd2674ff7bcef.svg",
+    "static/media/instagram.svg": "/portolio_designer/static/media/instagram.067c264ccdac4f266aa80acd41571cff.svg",
+    "static/media/figma.svg": "/portolio_designer/static/media/figma.3b25ed1a89efbdaca9d0ae9fca11b414.svg",
+    "static/media/star_black.svg": "/portolio_designer/static/media/star_black.f31101d112aa4550be3a599087c877e0.svg",
+    "static/media/star_gray.svg": "/portolio_designer/static/media/star_gray.0eb581330572d6b9a2b534957438c252.svg",
+    "index.html": "/portolio_designer/index.html",
+    "static/media/burger.svg": "/portolio_designer/static/media/burger.0f26fc2059a8880b7cd9170d6759923b.svg",
+    "main.798ca6fe.css.map": "/portolio_designer/static/css/main.798ca6fe.css.map",
+    "main.44f725bf.js.map": "/portolio_designer/static/js/main.44f725bf.js.map",
+    "787.b98b8a91.chunk.js.map": "/portolio_designer/static/js/787.b98b8a91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.798ca6fe.css",
+    "static/js/main.44f725bf.js"
+  ]
+}
