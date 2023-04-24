@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portolio_designer/static/css/main.798ca6fe.css",
-    "main.js": "/portolio_designer/static/js/main.44f725bf.js",
+    "main.css": "/portolio_designer/static/css/main.79f5b363.css",
+    "main.js": "/portolio_designer/static/js/main.7558295b.js",
     "static/js/787.b98b8a91.chunk.js": "/portolio_designer/static/js/787.b98b8a91.chunk.js",
     "static/media/avatar.png": "/portolio_designer/static/media/avatar.f5c41a6e563a9e0cd8c7.png",
     "static/media/portfolio_2.png": "/portolio_designer/static/media/portfolio_2.9001b0a4d4057d33baf0.png",
@@ -23,12 +23,12 @@
     "static/media/star_gray.svg": "/portolio_designer/static/media/star_gray.0eb581330572d6b9a2b534957438c252.svg",
     "index.html": "/portolio_designer/index.html",
     "static/media/burger.svg": "/portolio_designer/static/media/burger.0f26fc2059a8880b7cd9170d6759923b.svg",
-    "main.798ca6fe.css.map": "/portolio_designer/static/css/main.798ca6fe.css.map",
-    "main.44f725bf.js.map": "/portolio_designer/static/js/main.44f725bf.js.map",
+    "main.79f5b363.css.map": "/portolio_designer/static/css/main.79f5b363.css.map",
+    "main.7558295b.js.map": "/portolio_designer/static/js/main.7558295b.js.map",
     "787.b98b8a91.chunk.js.map": "/portolio_designer/static/js/787.b98b8a91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.798ca6fe.css",
-    "static/js/main.44f725bf.js"
+    "static/css/main.79f5b363.css",
+    "static/js/main.7558295b.js"
   ]
 }
